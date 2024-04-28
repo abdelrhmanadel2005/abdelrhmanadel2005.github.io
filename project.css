@@ -1,0 +1,170 @@
+* {
+  margin: 0; /* margin is used here */
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(26, 26, 163);
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px; /* margin is used here */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 8px;
+}
+
+.user-profile a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+#sss {
+  border-radius: 50%;
+  width: 10%;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-item {
+  width: 20%;
+  background-color: #c4bdbd;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(8, 22, 218, 0.1);
+  margin: 22px;
+  transition: all 0.3s;
+}
+
+.movie-item img {
+  width: 40%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#m1 {
+  width: 30%;
+}
+
+.movie-item:hover {
+  transform: scale(1.2);
+}
+
+.movie-item:active {
+  transform: scale(1.1);
+}
+
+main section {
+  flex-basis: 100%;
+  margin-bottom: 30px; /* margin is used here */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#film1,
+#film2,
+#film3,
+#film4 {
+  width: 90%;
+}
+
+.movie-list a {
+  text-decoration: none;
+  color: rgb(75, 75, 99);
+}
+.txt{
+  background-color: #999393;
+  border-radius: 5px;
+}
+ 
+
+#partners {
+  background-color: #f2f2f2;
+  padding: 30px;
+  text-align: center;
+}
+
+.partners-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.partner-logo {
+  width: 20%;
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.partner-logo img {
+  width: 90%;
+  height: 63%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(45, 3, 80, 0.1);
+}
+#shahid{
+  width: 90%;
+  height: 63%;
+}
+
+.partner-logo:hover {
+  transform: scale(1.2);
+}
+
+.partner-logo:active {
+  transform: scale(1.1);
+}
